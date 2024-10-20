@@ -133,7 +133,7 @@ public:
         // Открываем файл лога в режиме добавления
         ofstream logFile("error_log.txt", ios::app);
         if (!logFile) {
-            cerr << "Не получилось открыть log файл" << endl;
+            cerr << "Unable to open log file." << endl;
             return;
         }
 
@@ -201,14 +201,14 @@ public:
             // Возвращает количество удаленных файлов и директорий
             auto removed_count = filesystem::remove_all(path);
             if (removed_count > 0) {
-				cout << "Successfully removed " << removed_count << " files/directories at: " << path << endl;
-				return true;
+                cout << "Successfully removed " << removed_count << " files/directories at: " << path << endl;
+                return true;
             }
-			else { wcout << L"Не существует директория: " ; cout << path << endl; }
-		}
-		catch (const filesystem::filesystem_error& e) {
-			cerr << "Ошибка удаления директории: " << e.what() << endl;
-			logError(e.what());
+            else { cout << "Does not exist " <<  "directory: " << path << endl; }
+        }
+        catch (const filesystem::filesystem_error& e) {
+            cerr << "Error remove directory: " << e.what() << endl;
+            logError(e.what());
             return false;
         }
         return false;
@@ -222,16 +222,16 @@ public:
         if (filesystem::exists(path)) {
             currentPath = path;
             filesystem::current_path(path);
-			wcout << "Текущая директория сменена на: "; cout << path << endl;
+            cout << "Changed current directory to: " << path << endl;
             return true;
         }
-		else { wcout << "Директория "; cout << path ; wcout << L" не существует" << endl; }
-	} catch (const filesystem::filesystem_error& e) {
-		cerr << "Ошибка смены директории: " << e.what() << endl;
+        else { cout << "Directory " << path << " does not exist" << endl; }
+    } catch (const filesystem::filesystem_error& e) {
+        cerr << "Error change directory: " << e.what() << endl;
         logError(e.what());
         return false;
     }
-	return false;
+    return false;
 }
 
 };

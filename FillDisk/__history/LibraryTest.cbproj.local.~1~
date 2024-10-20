@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.684,C:\Users\maki\Документы\Embarcadero\Studio\Projects\LibraryTest\FillDisk.h=C:\Users\maki\Документы\Embarcadero\Studio\Projects\LibraryTest\File1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.359,C:\Users\maki\Документы\Embarcadero\Studio\Projects\LibraryTest\LibraryTest.cbproj=C:\Users\maki\Документы\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.334,=C:\Users\maki\Документы\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.327,C:\Users\maki\Документы\Embarcadero\Studio\Projects\LibraryTest\LibraryTestPCH1.h=C:\Users\maki\Документы\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.585,=C:\Users\maki\Документы\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.266,=C:\Users\maki\Документы\Embarcadero\Studio\Projects\File2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.873,=C:\Users\maki\Документы\Embarcadero\Studio\Projects\LibraryTest\error_log.txt</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.349,C:\Users\maki\Документы\Embarcadero\Studio\Projects\LibraryTest\File1.h=C:\Users\maki\Документы\Embarcadero\Studio\Projects\File1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.342,C:\Users\maki\Документы\Embarcadero\Studio\Projects\LibraryTest\FillDisk.cpp=C:\Users\maki\Документы\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.614,=C:\Users\maki\Документы\Embarcadero\Studio\Projects\File1.h</Transaction>
+  </Transactions>
+</BorlandProject>

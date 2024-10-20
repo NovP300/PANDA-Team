@@ -14,15 +14,12 @@ int _tmain(int argc, _TCHAR* argv[])
     int createdCount = generator.createNestedDirectories(rootPath, depth, branches); /*При создании вложенных директорий у ФС стоит ограничение
                                                                             длины имени файла в 260 символов, то есть при попытке создать
                                                                             большую вложенность, где имя каталогов привышает допустимое,
-																			воникает ошибка, программой создаются все возможные каталоги*/
-
-    wcout << L"Количество каталогов в корне: ";
-	cout << branches << endl;
-
-	wcout << L"Количество вложенных 2 уровня: ";
-	cout << depth << endl;
-
-	wcout << L"Всего создано директорий: "; cout << createdCount << endl;
+                                                                            воникает ошибка, программой создаются все возможные каталоги*/
+    wcout << L"Глубина вложенности: ";
+    cout << depth << endl;
+    wcout << L"Количество веток: ";
+    cout << branches << endl;
+    cout << "Total directories created: " << createdCount << endl;
 //    string Path = "F:\\1230\\";
 //    generator.removeDirectory(Path);
 //    string Path1 = "F:\\1231\\";

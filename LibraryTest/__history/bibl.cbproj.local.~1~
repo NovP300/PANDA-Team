@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.172,=C:\Users\maki\Документы\Embarcadero\Studio\Projects\библиотека\Win32\DataAccess_Debug\DataAccessLib.dll</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.529,C:\Users\maki\Документы\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\maki\Документы\Embarcadero\Studio\Projects\библиотека\biblPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.620,=C:\Users\maki\Документы\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.860,=C:\Users\maki\Документы\Embarcadero\Studio\Projects\библиотека\DataAccessLibConnect.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.537,C:\Users\maki\Документы\Embarcadero\Studio\Projects\File1.cpp=C:\Users\maki\Документы\Embarcadero\Studio\Projects\библиотека\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.655,=C:\Users\maki\Документы\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.859,=C:\Users\maki\Документы\Embarcadero\Studio\Projects\библиотека\DataAccessLibConnect.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.510,C:\Users\maki\Документы\Embarcadero\Studio\Projects\библиотека\bibl.cbproj=C:\Users\maki\Документы\Embarcadero\Studio\Projects\библиотека\bibl.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.549,C:\Users\maki\Документы\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\maki\Документы\Embarcadero\Studio\Projects\библиотека\bibl.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.963,=C:\Users\maki\Документы\Embarcadero\Studio\Projects\библиотека\DataAccessLibExportConst.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.493,C:\Users\maki\Документы\Embarcadero\Studio\Projects\библиотека\File1.cpp=C:\Users\maki\Документы\Embarcadero\Studio\Projects\библиотека\bibl.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.051,=C:\Users\maki\Документы\Embarcadero\Studio\Projects\библиотека\DataAccessLibStorageConst.h</Transaction>
+  </Transactions>
+</BorlandProject>

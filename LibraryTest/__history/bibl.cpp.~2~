@@ -52,7 +52,7 @@ int _tmain(int argc, _TCHAR* argv[]) {
 //Тест хранлища
 void StorageTest()
 {
-	wstring StoragePath(L"C:\\Users\\maki\\Рабочий стол1\\PandaTeam\\LibraryTest\\my_ntfs_image.vhd");  //полный путь!
+	wstring StoragePath(L"\\my_ntfs_image.vhd");
 
 	StorageHandle storage = CreateStorageHandle(StoragePath.c_str());
     if(storage != STORAGE_ERROR){
@@ -405,7 +405,7 @@ bool WriteDataFromBufferToFile(const BYTE* dataBuffer, LONGLONG bufferSize, cons
 }
 void DirTest()
 {
-    wstring imageStoragePath(L"C:\\Users\\maki\\Рабочий стол1\\PandaTeam\\LibraryTest\\my_ntfs_image.vhd");
+    wstring imageStoragePath(L"\\my_ntfs_image.vhd");
 
     StorageHandle dataStorage = CreateStorageHandle(imageStoragePath.c_str());
 
